@@ -27,7 +27,7 @@ deploy:
           ls -l $WERCKER_OUTPUT_DIR
 
      # Use the scratch step to build a container from scratch based on the files present
-    - internal/docker-scratch-push:
+    - internal/docker-push:
         username: $QUAY_USERNAME
         password: $QUAY_PASSWORD
         cmd: ./app
