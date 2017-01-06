@@ -25,6 +25,7 @@ deploy:
         name: debug
         code: |
           ls -l $WERCKER_OUTPUT_DIR
+          ls -l $WERCKER_ROOT
 
      # Use the scratch step to build a container from scratch based on the files present
     - internal/docker-push:
