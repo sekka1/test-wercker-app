@@ -29,4 +29,4 @@ deploy:
         tag: $WERCKER_GIT_COMMIT
         ports: "5000"
         repository: garland/test-wercker-app
-        #registry: https://docker.io
+        registry: https://registry.hub.docker.com
