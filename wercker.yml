@@ -18,7 +18,7 @@ build:
         code: cp app "$WERCKER_OUTPUT_DIR"
 
 deploy:
-    box: google/golang
+    box: node:6.9.3-wheezy
     steps:
 
      # Use the scratch step to build a container from scratch based on the files present
