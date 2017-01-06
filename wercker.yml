@@ -28,5 +28,5 @@ deploy:
         cmd: ./app
         tag: $WERCKER_GIT_COMMIT
         ports: "5000"
-        repository: garland/test-wercker-app
-        registry: https://registry.hub.docker.com
+        repository: quay.io/squelch/test-wercker-app
+        registry: https://quay.io
